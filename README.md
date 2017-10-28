@@ -1,3 +1,13 @@
-Java Network Server
+# Java Network Server
 
-Server accepts multiple clients and serves the response in threaded pool.
+It has two projects: Server and client
+
+# Server 
+    - accepts multiple clients and serves the response to multiple clients at the same time in threaded pool.
+    - clients can write data into the queue. Several clients can write data into the same queue or different queue.
+    
+# Client Test
+    - client application for testing network server
+    - It has sveral test cases for testing the server
+    - This client application can create multple clients and send request to the server at the same time.
+    - Severl clients can write/read to same different queue or same queue in the server
