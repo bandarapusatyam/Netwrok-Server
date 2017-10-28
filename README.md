@@ -4,7 +4,7 @@ It has two projects: Server and client
 
 # Server 
     - accepts multiple clients and serves the response to multiple clients at the same time in threaded pool.
-    - clients can write data into the queue. Several clients can write data into the same queue or different queue.
+    - clients can write/read data into the same queue or different queue at the same time.
     
 # Client Test
     - client application for testing network server
